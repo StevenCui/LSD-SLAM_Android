@@ -1,6 +1,7 @@
 package com.lhc.slam;
 
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,6 +11,8 @@ import android.widget.ImageView;
 
 import org.opencv.core.Mat;
 
+import java.io.File;
+
 public class MainActivity extends AppCompatActivity {
     private ImageView imageSrc,imageDepth;
     private Button buttonStart;
@@ -17,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
     private Mat matSrc, matDepth;
     private long addressSrc , addressDepth;
     private long[] addressArray = new long[3];//addressArray[0] for imageSource,addressArray[1] for imageDepth,addressArray[2] for infomation
+    private int i = 0;
+
+    private String pathString;
 
     static {
         System.loadLibrary("opencv_java");
@@ -50,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
     private Runnable task =new Runnable() {
         public void run() {
             // TODO
-            handler.postDelayed(this,1000);//设置延迟时间,50ms
+            handler.postDelayed(this,50);//设置延迟时间,50ms
 
             //读取地址中的原图
             /*matSrc = new Mat(addressSrc);
@@ -61,7 +67,29 @@ public class MainActivity extends AppCompatActivity {
             matDepth = new Mat(addressDepth);
             Utils.matToBitmap(matDepth ,bitmapDepth);
             imageDepth.setImageBitmap(bitmapDepth);*/
+            if(i<75)
+                i++;
+            else
+                i=1;
+            pathString = "mnt/sdcard/FilesForLSDSLAM/" + String.format("%05d", i)+".png";
+            imageSrc.setImageBitmap(MainActivity.getDiskBitmap(pathString));
 
         }
     };
+    private static Bitmap getDiskBitmap(String pathString)
+    {
+        Bitmap bitmap = null;
+        try
+        {
+            File file = new File(pathString);
+            if(file.exists())
+            {
+                bitmap = BitmapFactory.decodeFile(pathString);
+            }
+        } catch (Exception e)
+        {
+            // TODO: handle exception
+        }
+        return bitmap;
+    }
 }
