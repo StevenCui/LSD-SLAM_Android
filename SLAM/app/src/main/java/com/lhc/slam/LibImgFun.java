@@ -8,12 +8,14 @@ public class LibImgFun {
         System.loadLibrary("getImageAddressFromCpp");
 
     }
-    public static native long[] getImageAddressFromCpp();
+    public static native long[] getMatDataFromCpp();
 
     //public static native String getInfomationFromCpp();
 
     //public static native void startWork();
 
-    public static native int intfun();
+    //public static native int intfun();
+
+    public static native void startWork();
 
 }

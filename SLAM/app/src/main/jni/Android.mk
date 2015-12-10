@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-include D:/resouce_soft/OpenCV-2.4.10-android-sdk/sdk/native/jni/OpenCV.mk
+include /home/lhc/Software/OpenCV-android-sdk/sdk/native/jni/OpenCV.mk
 
 LOCAL_MODULE :=getImageAddressFromCpp
 LOCAL_SRC_FILES :=ImgFun.cpp
