@@ -22,18 +22,17 @@ obj/local/armeabi/objs/getImageAddressFromCpp/ImgFun.o: jni/ImgFun.cpp \
  D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/alloca.h \
  D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/strings.h \
  D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/memory.h \
+ D:/resouce_soft/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include/iostream \
+ D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/unistd.h \
+ D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/sys/select.h \
+ D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/sys/sysconf.h \
+ D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/linux/capability.h \
+ D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/pathconf.h \
  D:/resouce_soft/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/opencv.hpp \
  D:/resouce_soft/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/core/core_c.h \
  D:/resouce_soft/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/core/types_c.h \
  D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/assert.h \
  D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/math.h \
- D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/limits.h \
- D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/sys/limits.h \
- D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/linux/limits.h \
- D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/machine/internal_types.h \
- D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/machine/limits.h \
- D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/sys/syslimits.h \
- D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/asm/page.h \
  D:/resouce_soft/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/core/core.hpp \
  D:/resouce_soft/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/core/version.hpp \
  D:/resouce_soft/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include/algorithm \
@@ -63,7 +62,6 @@ obj/local/armeabi/objs/getImageAddressFromCpp/ImgFun.o: jni/ImgFun.cpp \
  D:/resouce_soft/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/calib3d/calib3d.hpp \
  D:/resouce_soft/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/core/affine.hpp \
  D:/resouce_soft/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/ml/ml.hpp \
- D:/resouce_soft/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include/iostream \
  D:/resouce_soft/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/highgui/highgui_c.h \
  D:/resouce_soft/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/highgui/highgui.hpp \
  D:/resouce_soft/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/contrib/contrib.hpp \
@@ -118,6 +116,18 @@ D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/string
 
 D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/memory.h:
 
+D:/resouce_soft/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include/iostream:
+
+D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/unistd.h:
+
+D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/sys/select.h:
+
+D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/sys/sysconf.h:
+
+D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/linux/capability.h:
+
+D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/pathconf.h:
+
 D:/resouce_soft/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/opencv.hpp:
 
 D:/resouce_soft/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/core/core_c.h:
@@ -127,20 +137,6 @@ D:/resouce_soft/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/core/ty
 D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/assert.h:
 
 D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/math.h:
-
-D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/limits.h:
-
-D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/sys/limits.h:
-
-D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/linux/limits.h:
-
-D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/machine/internal_types.h:
-
-D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/machine/limits.h:
-
-D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/sys/syslimits.h:
-
-D:/resouce_soft/android-ndk-r10e/platforms/android-3/arch-arm/usr/include/asm/page.h:
 
 D:/resouce_soft/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/core/core.hpp:
 
@@ -199,8 +195,6 @@ D:/resouce_soft/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/calib3d
 D:/resouce_soft/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/core/affine.hpp:
 
 D:/resouce_soft/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/ml/ml.hpp:
-
-D:/resouce_soft/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include/iostream:
 
 D:/resouce_soft/OpenCV-2.4.10-android-sdk/sdk/native/jni/include/opencv2/highgui/highgui_c.h:
 
