@@ -1,2 +1,1 @@
-# LSD-SLAM_Android
-2015
+#LSD_SLAM_android
